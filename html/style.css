@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+html {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#watermark-bg {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 10vh;
+}
+
+#watermark {
+  position: absolute;
+  top: 2.5vh;
+  right: 2vh;
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding-right: 12px;
+  height: auto;
+  background-color: rgba(20, 20, 20, 0.7);
+  border-radius: 9px;
+  border-bottom: 2px solid rgba(255, 174, 0, 0.8);
+}
+#watermark div, #watermark img {
+  margin-left: 0.5vh;
+}
+
+.server-logo {
+  height: 5vh;
+}
+
+.name-discord {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.server-name {
+  font-size: 1.5vh;
+  font-weight: 500;
+  color: white;
+  text-align: right;
+  line-height: 1.7vh;
+}
+
+.server-discord {
+  font-size: 1vh;
+  font-weight: 400;
+  color: #ffffff80;
+  text-align: right;
+  line-height: 1.2vh;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.logo .wl {
+  font-weight: 500;
+  font-size: 1vh;
+  color: #ffffff;
+  text-align: center;
+}
+
+.player-ids {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.player-ids #game-id {
+  border-radius: 10px;
+  font-size: 1.6vh;
+  line-height: 1.7vh;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
